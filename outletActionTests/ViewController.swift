@@ -29,6 +29,7 @@ class ViewController: UIViewController {
     @IBAction func outletButtonAction(_ sender: Any) {
         if outletbutton.currentTitle == "Basıldı"{
             outletbutton.setTitle("Okey", for: .normal)
+            //commit 2
 
         }
     }
